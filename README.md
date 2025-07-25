@@ -1,7 +1,8 @@
 # Computational Practice: Performing virtual in silico PCR on the computer. 
 
 ## Lab Overview
-Polymerase Chain Reaction (PCR) is a molecular biology technique that amplifies specific DNA molecules using oligonucleotide primers, DNA polymerase, and dNTPs.  See https://en.wikipedia.org/wiki/Polymerase_chain_reaction for a PCR refresher.  There are many primer design tools out there like Primer3 (http://bioinfo.ut.ee/primer3-0.4.0/) that will help design specific primers, but even well designed primers can hybridize at unexpected genome locations resulting in non-specific amplification and bands on a gel.  
+Polymerase Chain Reaction (PCR) is a molecular biology technique that amplifies specific DNA molecules using oligonucleotide primers, DNA polymerase, and dNTPs.  See https://en.wikipedia.org/wiki/Polymerase_chain_reaction for a PCR refresher.  There are many primer design tools out there like Primer3 (http://bioinfo.ut.ee/primer3-0.4.0/) that will help design specific primers, but even well designed primers can hybridize at unexpected genome locations resulting in non-specific amplification and bands on a gel.
+
 After primers are designed and before they are expensive synthesized and tested, one can do a virtual “in silico” PCR on the reference genome to see if the primers are truly specific.  In this lab we will verify that the FBI CODIS DNA fingerprinting PCR primers (https://strbase.nist.gov/fbicore.htm) are specific by performing in silico PCR on the human reference genome using the in silico PCR tool at the UCSC genome browser site.  
 How does forensic DNA profiling work?  (see http://en.wikipedia.org/wiki/DNA_profiling )
 
