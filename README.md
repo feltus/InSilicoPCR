@@ -31,7 +31,7 @@ D8S1179|chr8:124894742-124895242|chr8:124894722-124894742|chr8:124895242-1248952
 D13S317|chr13:82147788-82148288|chr13:82147768-82147788|chr13:82148288-82148308
 D16S539|chr16:86352375-86352875|chr16:86352355-86352375|chr16:86352875-86352895
 D18S51|chr18:63281538-63282038|chr18:63281518-63281538|chr18:63282038-63282058
-D21S11|chr21:19181805-19182305|chr21:19181785-19181805|chr21:19182305-1918232
+D21S11|chr21:19181805-19182305|chr21:19181785-19181805|chr21:19182305-19182325
 
 Go to the UCSC Human Genome Browser [https://genome.ucsc.edu] and extract the sequence for the forward and reverse primers use the coordiantes above. You can do this by entering the coordinates in the search bar and then use the 'View DNA' tool. Paste the sequences in a text file in FASTA format using a text editor like TextEdit on Mac (save as Plain Text and not RTF format), Notepad or Context in Windows, or  ‘nano’ or 'vi' on the Linux command line.  Do not use a word processor program like Word as it will contain hidden characters that will break bioinformatics sotware.  For each primer, make sure they are in FASTA format and put them all in a single concatenated file like this:
 ```
